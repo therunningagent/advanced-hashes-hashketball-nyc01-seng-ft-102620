@@ -202,8 +202,8 @@ def big_shoe_rebounds
   num_rebounds = 0
   
   game_hash.each do |location, team_data|
-    team_data[:players].each do |players, players_info|
-      
+    team_data[:players].each do |players|
+      players[:shoe] = large_shoe_size
       binding.pry
     
   end 
