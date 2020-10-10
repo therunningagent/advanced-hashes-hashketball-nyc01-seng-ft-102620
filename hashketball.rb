@@ -198,5 +198,9 @@ def player_stats(player)
 end 
 
 def big_shoe_rebounds
+  small_size = 0 
+  large_size = 0 
+  
+  
   
 end 
